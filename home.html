@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Recados</title>
+    </head>
+    <body class="fundo">
+
+        <main>
+            
+            <button id="sair" value="sair"> Sair</button>
+
+            <h1 class="titulo">Meus Recados</h1>
+            
+            <form id="informação">
+                
+                <input  type="text" class="descri" name= 'description' placeholder="Descrição"> 
+
+                <input  type="text" class="descri" name = 'details' placeholder="Detalhamento"> 
+
+                <input type="hidden" name='idx' id="idx" value="new">
+
+                <button type="submit" id="salvar">Salvar</button>
+
+            </form>
+        </main>
+
+        <table id='Tabela'>
+
+            <caption> 
+                <h2> </br> Lista dos Recados</h2>
+            </caption>
+
+            <thead>
+                <tr>
+                    <th># </th>
+                    <th>Descrição</th>
+                    <th>Detalhamento</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+
+        </table>
+
+        <script src="./js/home.js"></script>
+    </body>
+
+    <footer>
+        <p>Criado por: Karla Victoria (Vivi)</p>
+    </footer>
+</html>

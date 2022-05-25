@@ -1,0 +1,177 @@
+p{
+    text-align: center;
+    color: rgb(170, 0, 0);
+}
+
+.conteudo{
+    padding: 50px;
+    margin-top: 300px;
+}
+
+
+/* loginCss */
+#tituloR {
+    color: #e68464;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+#esquerdo1{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    background-color: #a0fad8;
+}
+
+.imagem{
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 10%;
+   
+}
+
+#direita1{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    text-align: center;
+}
+
+#botaoL{
+    height: 40px;
+    width: 420px;
+    background-color: #84ffd0;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+a{
+    color:#e68464;
+    
+}
+
+.login{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: medium;
+}
+
+.senha {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: medium;
+}
+
+/* registerCss */
+#tituloC{
+    color:#e68464;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-align: center;
+}
+
+#esquerdo2{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    background-color: #00CED1;
+}
+
+#direita2{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    text-align: left;
+} 
+
+.imag{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 9%;
+    height: 10%;
+}
+
+#conta{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    font-size: medium;
+}
+
+.senhaC{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    font-size: medium;
+}
+
+#cadastro{
+    height: 40px;
+    width: 700px;
+    text-align: center;
+    font-size: medium;
+    background-color: #00CED1;
+}
+
+/* HomeCss */
+
+    .titulo {
+        color: #FF1493;
+        text-align: center;
+        font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+        background-color: #a0fad8;
+    };
+
+    .fundo{
+        background-color: #e0fff3;  
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        }
+        
+    table {
+    margin: auto;
+        
+        }
+        
+    th  {
+        padding: 10px;
+        text-align: center;
+        font-size: larger;
+        width: 330px;
+        background-color: #FF69B4;
+        }
+
+    td  {
+        padding: 10px;
+        text-align: center;
+        font-size: larger;
+        width: 330px;
+        background-color: #fcb4d8;
+        }
+
+
+    #informação{
+        text-align: center;
+        background-color: #a0fad8;
+    }
+    .descri{
+        margin-left: 1%;
+        height: 40px;
+        width: 500px;
+        text-align: center;
+        font-size: medium;
+    }
+    #salvar{
+        background-color: #fcb4d8;
+        height: 46px;
+        width: 200px;
+    }
+
+    #sair{
+        background-color: #a0fad8;
+        height: 30px;
+        width: 100px;
+        font-size: medium;
+    }
